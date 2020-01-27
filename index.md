@@ -13,7 +13,10 @@ metropolitan area. The JaxLUG, originally started by Daniel Stringfield in
 who are elected annually.
 
 To get to know us and become a member of the JaxLUG, please join our
-Mailing List and attend our Monthly Meetings. We also have a IRC channel
+[**Mailing List**](https://www.jaxlug.net/index.php/Mailing_List)
+and attend our
+[**Monthly Meetings**](https://www.jaxlug.net/index.php/Main_Page#Next_Meeting).
+We also have a [IRC](https://www.jaxlug.net/index.php/IRC) channel
 #jaxlug @ freenode.net for real time access to JaxLUG members. 
 
 ### JaxLUG Meetings
