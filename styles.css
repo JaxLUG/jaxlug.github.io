@@ -31,12 +31,16 @@ body {
 }
 /* side nav properties end  */
 
-
-
 .main {
   margin-left: 18%; /* Same width as the sidebar + left position in px */
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+.footer{
+	margin-left: 18%; /* Same width as the sidebar + left position in px */
+  	font-size: 20px; /* Increased text to enable scrolling */
+  	padding: 0px 10px;
 }
 
 table, th, td {
