@@ -7,34 +7,38 @@ body {
 
 /* this section is for the left side nav bar properties*/
 .sidenav {
-  width: 17%;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 1px;
-  left: 5px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
+	width: 17%;
+  	height: 100%;
+  	position: fixed;
+  	z-index: 1;
+  	top: 1px;
+  	left: 5px;
+  	background: #eee;
+  	overflow-x: hidden;
+  	padding: 8px 0;
+}
+.sidenav a.active{
+	background-color: #04AA6D;
+	color: white;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  color: #2196F3;
-  display: block;
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 15px;
+  	color: #2196F3;
+  	display: block;
 }
 
-.sidenav a:hover {
-  color: #064579;
+.sidenav a:hover:not(.active) {
+  	color: #064579;
 }
 /* side nav properties end  */
 
 .main {
-  margin-left: 18%; /* Same width as the sidebar + left position in px */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+	margin-left: 18%; /* Same width as the sidebar + left position in px */
+  	font-size: 20px; /* Increased text to enable scrolling */
+  	padding: 0px 10px;
 }
 
 .footer{
@@ -45,8 +49,8 @@ body {
 }
 
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+	border: 1px solid black;
+  	border-collapse: collapse;
 
 
 @media screen and (max-height: 450px) {
@@ -84,14 +88,14 @@ table, th, td {
 
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: lightgray;
-  color: white;
+	text-align: center;
+  	padding: 3px;
+  	background-color: lightgray;
+  	color: white;
 
-   /* this will make the FOOTER links highlight as you hover */
-  /* li a {display: block; color: #000; padding: 8px 16px; text-decoration: none;} */
-  /* li a.active { background-color: #234232; color: white;}  */
-  /*  li a:hover:not(.active) { background-color: #555; color: white;}  */  
+        /* this will make the FOOTER links highlight as you hover */
+        li a {display: block; color: #000; padding: 8px 16px; text-decoration: none;} 
+        li a.active { background-color: #234232; color: white;}  
+  	li a:hover:not(.active) { background-color: #555; color: white;}   
 
 } 
