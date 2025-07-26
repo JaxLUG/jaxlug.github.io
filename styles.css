@@ -8,7 +8,7 @@ body {
 /* this section is for the left side nav bar properties*/
 .sidenav {
   width: 17%;
-  height: 90%;
+  height: 99%;
   position: fixed;
   z-index: 1;
   top: 2px;
