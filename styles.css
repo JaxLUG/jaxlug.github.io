@@ -38,6 +38,7 @@ body {
 }
 
 .footer{
+	text-align: center;
 	margin-left: 18%; /* Same width as the sidebar + left position in px */
   	font-size: 20px; /* Increased text to enable scrolling */
   	padding: 0px 10px;
