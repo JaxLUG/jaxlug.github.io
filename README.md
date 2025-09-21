@@ -1,12 +1,16 @@
-# Welcome to the alternative JaxLUG webpage and Repository 
+# Welcome to the Official JaxLUG® Webpage Repository
 
-This repository was intended to create interactivity between members. This is supposed to be a collaboration effort with all the memebers of the JaxLUG group. 
-It also works as a main point of information for the JaxLUG meetings and events. 
+This repository purpose is to create interactivity between members. This is
+website is a collaboration effort among all the members of the JaxLUG group.
+It also works as a main point of information for the JaxLUG meetings and events.
 
-## Interested in collaborating? 
-Attend the JaxLUG meetings and provide your github username to Ramon. 
-OR
-You can contact me "R4m0n" in the JaxLUG Discord page.  i can get you writter access so you can make changes and submit a pull request.
+## Interested in collaborating?
 
-Remember to pull before making a push and then a pull request.:)  
-Thanks 
+Please, attend a JaxLUG meeting and provide your github username to Ramon Dominguez.
+Or, you can contact [Ramon Dominguez aka "R4m0n"](https://github.com/RDominguezFL)
+in the JaxLUG Discord server. Once confirmed, writer access will be granted
+to your Github account to allow you to make changes and submit pull requests.
+
+Remember to always pull before making a push and then a pull request.
+
+Thank You!
