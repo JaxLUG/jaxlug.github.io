@@ -1,4 +1,4 @@
-# Welcome to the Official JaxLUG Webpage Repository
+# Welcome to the Official JaxLUG™ Webpage Repository
 
 This repository purpose is to create interactivity between members. This is
 website is a collaboration effort among all the members of the JaxLUG group.
