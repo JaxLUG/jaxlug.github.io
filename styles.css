@@ -1,3 +1,4 @@
+
 :root {
     --color: #CCC;
     --background: #333;
@@ -37,26 +38,28 @@ html, body {
   	display: block;
 }
 
-.sidenav a:hover:not(.active) {
+/* side nav properties end at this line   */
+a {
+  	color: #2196F3;
+}
+
+a:hover:not(.active) {
 	color: #064579;
 }
-/* side nav properties end at this line   */
-
-
 
 .main {
     background: var(--background);
     color: var(--color);
-	margin-left: 18%; /* Same width as the sidebar + left position in px */
+	margin-left: 17%; /* Same width as the sidebar + left position in px */
   	font-size: 20px; /* Increased text to enable scrolling */
   	padding: 0px 10px;
 }
 
-.footer{
+.footer {
     background: var(--background);
     color: var(--color);
 	text-align: center;
-	margin-left: 18%; /* Same width as the sidebar + left position in px */
+	margin-left: 17%; /* Same width as the sidebar + left position in px */
   	font-size: 20px; /* Increased text to enable scrolling */
   	padding: 0px 10px;
 }
