@@ -71,6 +71,12 @@ a:hover:not(.active) {
     width: 600px;
 }
 
+#logo_tux {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
 table, th, td {
 	border: 1px solid black;
   	border-collapse: collapse;
