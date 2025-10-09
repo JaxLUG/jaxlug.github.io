@@ -40,6 +40,8 @@ html, body {
 a { color: #2196F3; }
 a:hover:not(.active) { color: #064579; }
 
+h1, h2, h3 { margin-bottom: 0; }
+
 footer {
     background: var(--background);
     color: var(--color);
