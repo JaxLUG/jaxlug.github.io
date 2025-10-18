@@ -9,25 +9,82 @@
     --nav-width: 12em;
 }
 
-@media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-  	.sidenav a {font-size: 18px;}
+@media screen and (min-width: 1px) and (max-width: 580px) {
+    :root {
+        --nav-width: 0;
+    }
+
+    .sidenav:hover::before {
+        content: "";
+    }
+    .sidenav::before {
+        content: "≡";
+        font-size: 40px;
+        display: block;
+        position: fixed;
+        z-index: 1;
+    }
+    .sidenav a {
+        display: block;
+        padding: 4px;
+        text-decoration: none;
+    }
+    .sidenav object {
+        float: left;
+    }
+    .sidenav:hover ul {
+        display: block;
+    }
+    .sidenav ul {
+        display: none;
+        padding: 4px 8px;
+        background: var(--background);
+        list-style-type: none;
+        position: fixed;
+        z-index: 1;
+        width: 14em;
+    }
+    .sidenav ul ul {
+        list-style-type: '-';
+        margin-left: 0.5em;
+        padding: 0 0 4px 1em;
+        position: relative;
+        width: 10em;
+    }
 }
 
-@media screen and (max-width:900px) and (min-width:400px) {
-	body {font-size: 50%;}
-	.sidenav a {
- 		padding: 6px 8px 6px 16px;
-  		text-decoration: none;
-  		font-size: 10px;
-  		color: #2196F3;
-  		display: block;
-	}
-	.main{font-size:9px;}
-}
-
-@media screen and (max-width:400px) {
-	body{font-size: 9px;}
+@media screen and (min-width: 580px) {
+    /* this section is for the left side navigation menu properties*/
+    .sidenav {
+        width: var(--nav-width);
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        background: var(--background);
+        color: var(--color);
+        overflow-x: hidden;
+    }
+    .sidenav a.active{
+        background-color: #04AA6D;
+        color: var(--color);
+    }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #2196F3;
+        display: block;
+    }
+    .sidenav ul {
+        list-style-type: none;
+        padding-left: 1em;
+    }
+    .sidenav ul ul {
+        list-style-type: '-';
+        padding-left: 1em;
+        margin-left: 0.5em;
+    }
+    /* side nav properties end at this line   */
 }
 
 
@@ -57,38 +114,6 @@ table, th, td {
 
 
 /***** Classes *****/
-
-/* this section is for the left side navigation menu properties*/
-.sidenav {
-	width: var(--nav-width);
-  	height: 100%;
-  	position: fixed;
-  	z-index: 1;
-    background: var(--background);
-    color: var(--color);
-  	overflow-x: hidden;
-}
-.sidenav a.active{
-	background-color: #04AA6D;
-    color: var(--color);
-}
-.sidenav a {
-	padding: 6px 8px 6px 16px;
-  	text-decoration: none;
-  	font-size: 15px;
-  	color: #2196F3;
-  	display: block;
-}
-.sidenav ul {
-    list-style-type: none;
-    padding-left: 1em;
-}
-.sidenav ul ul {
-    list-style-type: '-';
-    padding-left: 1em;
-    margin-left: 0.5em;
-}
-/* side nav properties end at this line   */
 
 .main {
     background: var(--background);
