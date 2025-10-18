@@ -139,7 +139,9 @@ table, th, td {
 #logo_banner {
     float: right;
     padding: 0 0 0 10px;
-    width: 600px;
+    min-width: 100px;
+    max-width: 600px;
+    width: 100%;
 }
 
 #logo_tux {
