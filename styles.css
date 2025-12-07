@@ -115,6 +115,8 @@ table, th, td {
 
 /***** Classes *****/
 
+.cb { clear: both; }
+
 .main {
     background: var(--background);
     color: var(--color);
@@ -133,6 +135,8 @@ table, th, td {
   	padding: 0px 10px;
 }
 
+img.float_left { float: left; padding: 0 1em 0.5em 0; margin: 0 1em 0.5em 0; }
+img.float_right { float: right; padding: 0 0 0.5em 1em;  margin: 0 0 0.5em 1em; }
 
 /***** IDs *****/
 
