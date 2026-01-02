@@ -151,5 +151,6 @@ img.float_right { float: right; padding: 0 0 0.5em 1em;  margin: 0 0 0.5em 1em; 
 #logo_tux {
     display: block;
     margin: 0 auto;
-    width: 120px;
+    min-width: 120px;
+    width: 100%;
 }
